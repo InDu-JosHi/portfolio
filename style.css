@@ -1,0 +1,75 @@
+.body{
+    background-color: #1E1E1E;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.top{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.nam{
+    font-weight: bold;
+    font-size: 45px;
+}
+.nm{
+    color: #FF2700;
+}
+.spn{
+    font-size: 20px;
+    margin-right: 35px;
+
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.it{
+    font-size: 24px;
+}
+.btn{
+    font-size: 24px;
+    background-color: #FF2700;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-top: 40px;
+}
+.icons{
+    display: flex;
+    margin-top: 150px;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    padding: 1px;
+    margin: 10px;
+    background-color: white;
+    border: 1x solid black;
+    border-radius: 10px;
+}
+.img:hover{
+    background-color: #f12906;
+}
+.background{
+    background-color: #FF2700;
+    height: 420px;
+    width: 450px;
+    position: relative;
+    left: 1045px;
+    bottom: 480px;
+    transform: rotate(75deg);
+    border-radius:90px 525px 90px 125px;
+    z-index: -1;
+}
